@@ -33,7 +33,9 @@ set showcmd
 "set statusline+=%f
 " backspace
 set backspace=indent,eol,start
+
 " vim-plug
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 call plug#begin('~/.vim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-scripts/taglist.vim'
